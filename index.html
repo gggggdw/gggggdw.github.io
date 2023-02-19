@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="screen-orientation" content="portrait">
-    <meta name="full-screen" content="yes">
-    <meta name="browsermode" content="application">
-    <meta name="layoutmode" content="standard">
-    <meta name="nightmode" content="disable">
-    <meta name="imagemode" content="force">
-    <meta name="x5-orientation" content="portrait">
-    <meta name="x5-fullscreen" content="true">
-    <meta name="x5-page-mode" content="default">
+    <style>
+        @keyframes rotateSquare{
+          0%{transform: translateY(-50%) rotate(0deg);}
+          25%{transform: translateY(-60%) rotate(90deg);}
+          50%{transform: translateY(-70%) rotate(180deg);}
+          75%{transform: translateY(-60%) rotate(270deg);}
+          100%{transform: translateY(-50%) rotate(360deg);}
+        }
+        .square {
+          position: absolute;
+          top: 240%;
+          width: 50px;
+          height: 50px;
+          background: green;
+          animation: rotateSquare 5s linear infinite;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="square"></div>
+    </body>
 <!--设为UTF-8-–>
 	<meta charset="utf-8">
 <!--背景颜色-->
@@ -36,48 +46,5 @@
 	</div>
 	<title>ggww’s web</title>
 	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
-	<div align="center">
-	<a href="https://gggggdw.github.io/server/index.html"
-		<button>Join in server</button>
-	</div>
-	<style type="text/css">
-		.square {
-			width: 100px;
-			height: 100px;
-			background: #F12525;
-			position: fixed;
-			left: 50%;
-			top: 50%;
-			margin: -50px 0 0 -50px;
-			animation:rotate 2s linear 1;
-			-moz-animation:rotate 2s linear 1;
-			-webkit-animation: rotate 2s linear 1;
-		}
-		@keyframes rotate{
-			100%{
-				transform: rotate(360deg);
-				-moz-transform: rotate(360deg);
-				-webkit-transform: rotate(360deg);
-			}
-		}
-		@-moz-keyframes rotate{
-			100%{
-				transform: rotate(360deg);
-				-moz-transform: rotate(360deg);
-				-webkit-transform: rotate(360deg);
-			}
-		}
-		@-webkit-keyframes rotate{
-			100%{
-				transform: rotate(360deg);
-				-moz-transform: rotate(360deg);
-				-webkit-transform: rotate(360deg);
-			}
-		}
-		</style>
-		</head>
-		<body>
-		<div class="square"></div>
-		</body>
 </head>
 </html>
