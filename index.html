@@ -1,4 +1,7 @@
-<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="screen-orientation" content="portrait">
     <meta name="full-screen" content="yes">
@@ -9,9 +12,6 @@
     <meta name="x5-orientation" content="portrait">
     <meta name="x5-fullscreen" content="true">
     <meta name="x5-page-mode" content="default">
-<!DOCTYPE html>
-<html>
-<head>
 <!--设为UTF-8-–>
 	<meta charset="utf-8">
 <!--背景颜色-->
@@ -40,5 +40,44 @@
 	<a href="https://gggggdw.github.io/server/index.html"
 		<button>Join in server</button>
 	</div>
+	<style type="text/css">
+		.square {
+			width: 100px;
+			height: 100px;
+			background: #F12525;
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			margin: -50px 0 0 -50px;
+			animation:rotate 2s linear 1;
+			-moz-animation:rotate 2s linear 1;
+			-webkit-animation: rotate 2s linear 1;
+		}
+		@keyframes rotate{
+			100%{
+				transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-webkit-transform: rotate(360deg);
+			}
+		}
+		@-moz-keyframes rotate{
+			100%{
+				transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-webkit-transform: rotate(360deg);
+			}
+		}
+		@-webkit-keyframes rotate{
+			100%{
+				transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-webkit-transform: rotate(360deg);
+			}
+		}
+		</style>
+		</head>
+		<body>
+		<div class="square"></div>
+		</body>
 </head>
 </html>
