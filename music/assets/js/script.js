@@ -14,7 +14,7 @@ const musicData = [
     album: "Queen",
     year: 2022,
     artist: "Queen",
-    musicPath: "./assets/music/music-1.mp3",
+    musicPath: "http://m10.music.126.net/20230311071241/fa6725a4a8fe089f0fc3969a52bded93/ymusic/95a5/0a6d/1e0a/d19de80474cb96040abbd1d7cdcc35e6.mp3",
   },
   {
     backgroundImage: "./assets/images/poster-2.jpg",
@@ -23,7 +23,7 @@ const musicData = [
     album: "The Bangles",
     year: 2022,
     artist: "The Bangles",
-    musicPath: "./assets/music/music-2.mp3",
+    musicPath: "http://m10.music.126.net/20230311071435/5fab54e1674a69a5732cc048c9be450b/ymusic/ce01/1edc/5be8/21eca76a33b1b58726046539e44c52ee.mp3",
   },
   {
     backgroundImage: "./assets/images/poster-3.jpg",
@@ -32,7 +32,7 @@ const musicData = [
     album: "C418",
     year: 2022,
     artist: "C418",
-    musicPath: "./assets/music/music-3.mp3",
+    musicPath: "http://m701.music.126.net/20230311071524/e1c4e1da25fdc65708a06ba28b7d5c22/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/15034080808/00aa/992c/52ec/3ab235c9d76992b357f0f4e5d06c7795.mp3",
   },
   {
     backgroundImage: "./assets/images/poster-4.jpg",
